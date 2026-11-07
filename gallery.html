@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse all photos in My Gallery">
+  <title>My Gallery | Gallery</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 25px;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    figure {
+      display: inline-block;
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    figure img {
+      width: 250px;
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    figcaption {
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<>
+
+  <header>
+    <h1>Photo Gallery</h1>
+    <div class="gallery-controls">
+    <input
+        type="search"
+        id="searchInput"
+        placeholder="Search photos..."
+        aria-label="Search photos"
+    ><select id="categoryFilter" aria-label="Filter photos by category">
+    <option value="all">All Photos</option>
+    <option value="nature">Nature</option>
+    <option value="animals">Animals</option>
+    <option value="travel">Travel</option>
+    <option value="other">Other</option>
+</select>
+
+    </div>
+    <p>Explore Our Collection</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="albums.html">Albums</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>All Photos</h2>
+      <p>Browse our collection of beautiful photographs.</p>
+
+      <figure>
+        <img src="images/02_daisy.jpg" alt="Beautiful nature">
+        <figcaption>Beautiful Nature</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/04_cat.jpg" alt="Cat">
+        <figcaption>Cat</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/01_sunset-1.jpg" alt="Beautiful Sunset">
+        <figcaption>Beautiful Sunset</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/07_pink_roses.jpg" alt="Beautiful flowers">
+        <figcaption>Beautiful Flowers</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/08_beach.jpg" alt="Beautiful sea">
+        <figcaption>Beautiful Sea</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/03_city.jpg" alt="City view">
+        <figcaption>City View</figcaption>
+      </figure>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Gallery</p>
+    <p>Created for University Project</p>
+  <footer/>
+<script src="script.js"></script>
+</body>
+</html>
